@@ -1,0 +1,72 @@
+.alloffered-card {
+    background-color: aliceblue;
+    color: black;
+    margin: 1rem;
+    margin-top: 3.4rem;
+    padding: 0.6rem;
+    border-radius: 1.2rem;
+}
+
+.alloffered-card:hover {
+    cursor: pointer;
+}
+
+.ride-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.accepted-offers {
+    background-color: white;
+    border-radius: 30px;
+    z-index: 1000;
+    width: 30vw;
+    height:fit-content;
+    padding: 2rem;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    /* Ensure the form appears on top of the overlay */
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent black overlay */
+    z-index: 999;
+    /* Ensure the overlay appears on top of other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accepted-offer-usrdet{
+    display:flex;
+    background-color: grey;
+    width:100%;
+    z-index: 1100;
+    flex-wrap: wrap;
+    padding:2rem;
+    height:1%;
+    border-radius: 1rem;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+
+
+.accepted-offers-head .close-button{
+    position:fixed;
+    top:37vh;
+    left:62vw;
+    padding:0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-color:rgba(0, 0, 0, 0.4);
+    background-color: antiquewhite;
+}

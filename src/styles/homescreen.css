@@ -1,0 +1,332 @@
+.home-container {
+  color: white;
+}
+
+.meta-msg {
+  background-color: aliceblue;
+  color: black;
+  padding: 1rem;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.user-button-container {
+  margin-right: 1.2rem;
+
+}
+
+/* .home-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0.6rem 1rem;
+  background-color: red;
+} */
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color:rgb(108, 221, 15);
+}
+
+.navbar {
+  background-color: rgb(48, 47, 47);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  height: 5.5rem;
+  margin: 1rem 0 1rem 0;
+  padding: 0px 20px 0px 150px;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.user-button-container {
+  color: #fff;
+  padding: 1rem 1rem 0.8rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user-button-container:hover {
+  background: radial-gradient(#3b3b3f, #131212);
+  color: #e0dcdc;
+}
+.nav-links{
+  padding: 0.8rem 1rem 1rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.8rem;
+  margin-right:4.5rem;
+  height: 3rem;
+  width: 8rem;
+  justify-content: center;
+  font-weight: 700;
+  gap:2rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+/* .nav-links:hover {
+  background: radial-gradient(#3b3b3f, #131212);
+  color: #d5dc14;
+} */
+
+
+.navbar .company-name {
+  color: #fff;
+  padding: 20px 0px 20px 0px;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.navbar .company-name:hover {
+  cursor: pointer;
+}
+/* .meta-msg Link{
+    text-decoration: none;
+  } */
+
+/* Responsive CSS */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* Carousel CSS */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 70vw;
+  margin: 1rem auto 2rem auto;
+  overflow: hidden;
+  height: 37rem;
+  
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  border-radius: 3rem;
+}
+
+.carousel-item {
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+  height: 75vh;
+
+}
+
+.carousel-caption {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  visibility: hidden;
+}
+
+/* Controls */
+/* .carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+} */
+
+/* .prev-btn {
+    left: 10px;
+  }
+
+  .next-btn {
+    right: 10px;
+  } */
+
+.homescreen-body h1 {
+  margin-top: 5rem;
+  text-align: center;
+
+}
+
+.rule1 {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  width: 80rem;
+}
+
+.rule2 {
+  width: 80rem;
+  margin-right: 2rem;
+  float: right;
+}
+
+.rideDetails {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.rideImage {
+  background-color: #1e1e20;
+  height: 70vh;
+  width: 40vw;
+  border-radius: 30px;
+}
+
+.rideImage img {
+  object-fit: cover;
+  width: 500px;
+  padding-top: 20vh;
+  margin-left: 3rem;
+}
+
+.rideForm {
+  padding: 2rem;
+  background-color: #1e1e20;
+  height: 70vh;
+  width: 40vw;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: scroll;  */
+  
+}
+
+.rideForm h2 {
+  text-align: center;
+}
+
+.ip {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: aliceblue;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+
+.btn {
+  background: rgb(93, 183, 239);
+  border: none;
+  /* padding: 0.75rem 3.5rem; */
+  border-radius: 0.5rem;
+  margin: 2rem;
+  /* margin-left: 12rem; */
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.footer {
+  /* margin-top: 5rem; */
+  height: 4rem;
+  background: rgb(40, 40, 40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: medium;
+  text-align: center;
+}
+
+@media screen and (max-width:1430px) {
+  .navbar{
+    flex-direction: column;
+    height: fit-content;
+    padding: 0;
+    margin-left: 0.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .nav-links{
+    margin-left: 3rem;
+    margin-bottom: -1rem;
+  }
+  .rightNav{
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .navbar .company-name{
+    padding: 0.5rem;
+  }
+  .carousel{
+    width: 90vw;
+    height: 50vh;
+    max-width: 90vw;
+    margin-left: 1.3rem;
+    object-fit: cover;
+  }
+  .carousel-inner{
+    object-fit: cover;
+    height: 50vh;
+  }
+  
+  .carousel-item .image{
+    opacity: 0.4;
+    object-fit: cover;
+  }
+
+  .carousel-item{
+    background-image: linear-gradient( rgba(255, 255, 0, 0.5),rgba(0, 0, 255, 0.5));
+  }
+  .carousel-caption{
+    background: #1414dc97;
+    border-radius: 0.7rem;
+    padding: 1rem;
+  }
+
+  .rideDetails{
+    flex-direction: column;
+  }
+
+  .rideImage{
+    width: 90vw;
+    height: 30vh;
+    margin-left: 1.5rem;
+  }
+
+  .rideImage img{
+    width: 20rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    margin: 0;
+  }
+
+  .rideForm{
+    padding: 0;
+    height: 45vh;
+    width: 90vw;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+
+  .rule1{
+    width: 70rem;
+    margin-left: 2rem;
+    float: right;
+  }
+  .rule2{
+    width: 20rem;
+  }
+}

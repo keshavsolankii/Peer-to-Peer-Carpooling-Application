@@ -1,0 +1,76 @@
+.offer-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin: 3rem;
+    max-width: 95vw;
+    background-color: rgb(156, 254, 254);
+    color: black;
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+/* .offer-card:hover{
+    background: yellow;
+    color: black;
+} */
+
+.offer-card-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.offer-card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.negotiate-form {
+    width: 50vw;
+    text-align: center;
+    height: fit-content;
+    margin-left: 0.2rem;
+}
+
+.offer-card-accepted {
+    background-color: rgba(200, 221, 175, 0.863);
+    color: black;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:1430px) {
+
+    .offer-card {
+        margin: 0;
+        margin-left: 3vw;
+    }
+
+    .offer-card-body {
+        flex-direction: column;
+    }
+
+    .negotiate-form {
+        width: 90vw;
+        text-align: center;
+        height: fit-content;
+        margin-left: 0.2rem;
+    }
+
+    .offer-negotiate-amt {
+        margin-right: 2rem;
+    }
+
+}
